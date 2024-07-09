@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<style type="text/css" media="screen">
+    #editor {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+</head>
+<body>
+
+<div id="editor">// --------
+// Title: My first experiment
+// jsPsych version: 7.3.1
+// date: [today]
+// author: [your name]
+//----------
+
+// ----------------
+// INITIATE JSPSYCH
+// ----------------
+
+// create a var called jsPsych to store the initJsPsych function
+
+var jsPsych = initJsPsych();
+
+// -------------
+// TRIAL
+// -------------
+
+// use the html-button-response plugin to make a trial with a simple stimulus and a button called 'click me'
+
+var button_trial = {
+  type: jsPsychHtmlButtonResponse,
+  stimulus: 'Hello world',
+  choices: ['click me!'],
+};
+
+// ---------------
+// TIMELINE
+// ---------------
+
+// we first have to establish a timeline, which we will use to push the different trials to
+// this starts off as an empty array, as indicated by the empty square brackets []
+
+var timeline = [];
+
+// now we need to push our trial to the timeline
+
+timeline.push(button_trial);
+
+// ----------------
+// RUN THE EXPERIMENT
+// ----------------
+
+// now we can run the experiment using the jsPysch.run function, we specify that our timeline array is what we want to run
+
+jsPsych.run(timeline);
+
+</div>
+
+<script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/monokai");
+    editor.session.setMode("ace/mode/javascript");
+</script>
+</body>
+</html>
