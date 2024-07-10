@@ -1,0 +1,11 @@
+﻿image1;image2;image3;audio;real_word;correct_choice
+fox.png;hippo.png;cucumber.png;fox.wav;yes;fox.png
+cheese.png;fox.png;hippo.png;cheesx.wav;no;cheese.png
+sheep.png;cheese.png;fox.png;sheep.wav;yes;sheep.png
+banana.png;sheep.png;cheese.png;banxna.wav;no;banana.png
+chair.png;banana.png;sheep.png;banana.wav;yes;banana.png
+pea.png;chair.png;banana.png;chxir.wav;no;chair.png
+heart.png;pea.png;chair.png;pea.wav;yes;pea.png
+pumpkin.png;heart.png;pea.png;pxa.wav;no;pea.png
+cucumber.png;pumpkin.png;heart.png;heart.wav;yes;heart.png
+hippo.png;cucumber.png;pumpkin.png;pumpkxn.wav;no;pumpkin.png

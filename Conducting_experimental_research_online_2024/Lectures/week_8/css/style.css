@@ -1,0 +1,182 @@
+.collapsible1 {
+  background-color: #922C43;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.active1, .collapsible1:hover {
+  background-color: #922C43;
+}
+
+.collapsible1:after {
+  background-color: #922C43;
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active1:after {
+  content: "\2212";
+}
+
+.content1 {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+}
+
+.goog-tooltip {
+    display: none !important;
+}
+
+.goog-tooltip:hover {
+    display: none !important;
+}
+
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#goog-gt-tt {display:none!important;visibility:hidden!important;}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;visibility:hidden!important;
+}
+
+.codeblock {
+    background-color: #272823;
+    border-radius: 5px;
+    padding: 10px;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    width:90%;
+}
+
+comment {
+  color: #747160;
+}
+
+codetext {
+  color: #F8F8F3;
+}
+
+operatortext {
+  color: #E53F73;
+}
+
+stringtext {
+  color: #E4DB82;
+}
+
+numerictext {
+  color: #A683F7;
+}
+
+#content pre {
+    background-color: #272823;
+    border-radius: 5px;
+    border: 1px solid #e1e4e5;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    overflow: auto;
+    padding: 12px;
+    white-space: pre;
+    word-wrap: normal;
+    word-break: normal;
+    color: #F8F8F3;
+}
+
+code span.kw {
+    color: #84D6EC;
+    font-style: italic;
+}
+
+code span.co {
+    color: #747160;
+}
+
+code span.fu {
+    color: #F8F8F3;
+}
+
+code span.op {
+    color: #E53F73;
+}
+
+code span.dt {
+    color: #F8F8F3;
+}
+
+code span.at {
+    color: #F8F8F3;
+}
+
+code span.st {
+    color: #E4DB82;
+}
+
+code span.dv {
+    color: #A683F7;
+}
+
+code span.vs {
+    color: #E4DB82;
+}
+
+code span.cf {
+    color: #E53F73;
+    font-weight: normal;
+}
+
+code span.sc {
+    color: #F8F8F3;
+}
+
+
+
+
+
+
+
+pre code .string {
+    color:#A1E46D;
+}
+pre code .special {
+    color:#D6665D;
+}
+pre code .special-js {
+    color:#6DE4D1;
+}
+pre code .special-js-glob {
+    color:#A1E46D;
+    font-weight:bold;
+}
+pre code .special-comment{
+    color:#aaa;
+}
+pre code .special-js-meth {
+    color:#E46D8A;
+}
+pre code .special-html {
+    color:#E4D95F;
+}
+pre code .special-sql {
+    color:#1D968C;
+}
+pre code .special-php{
+    color:#597EA7;
+}
